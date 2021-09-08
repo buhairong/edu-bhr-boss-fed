@@ -39,3 +39,6 @@ https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/esli
 excel插件: xlsx
 https://sheetjs.com/
 
+eslint 自定义规则
+https://cn.eslint.org/docs/user-guide/configuring
+
