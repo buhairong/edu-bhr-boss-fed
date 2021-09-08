@@ -1,5 +1,9 @@
 # edu-bhr-boss-fed
 
+接口：
+http://eduboss.lagou.com 
+http://edufront.lagou.com
+
 ## Project setup
 ```
 npm install
@@ -42,3 +46,8 @@ https://sheetjs.com/
 eslint 自定义规则
 https://cn.eslint.org/docs/user-guide/configuring
 
+vue-cli 配置 vue.config.js
+https://cli.vuejs.org/zh/guide/css.html#%E5%90%91%E9%A2%84%E5%A4%84%E7%90%86 %E5%99%A8-loader-%E4%BC%A0%E9%80%92%E9%80%89%E9%A1%B9
+
+设置代理
+https://cli.vuejs.org/zh/config/#devserver-proxy
