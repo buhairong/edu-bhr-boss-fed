@@ -36,3 +36,6 @@ https://www.typescriptlang.org/docs/handbook/decorators.html
 
 https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin#supported-rules
 
+excel插件: xlsx
+https://sheetjs.com/
+
