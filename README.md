@@ -28,3 +28,9 @@ https://cn.vuejs.org/v2/guide/typescript.html#%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%
 
 https://class-component.vuejs.org/guide/refs-type-extension.html
 
+https://v3.cn.vuejs.org/api/directives.html
+
+https://v3.cn.vuejs.org/style-guide/
+
+https://www.typescriptlang.org/docs/handbook/decorators.html
+
