@@ -51,3 +51,6 @@ https://cli.vuejs.org/zh/guide/css.html#%E5%90%91%E9%A2%84%E5%A4%84%E7%90%86 %E5
 
 设置代理
 https://cli.vuejs.org/zh/config/#devserver-proxy
+
+elementui 表单校验
+https://github.com/yiminghe/async-validator
