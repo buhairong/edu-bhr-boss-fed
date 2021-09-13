@@ -25,3 +25,37 @@ module.exports = {
     }
   }
 }
+
+/*
+
+chainWebpack: (config) => {
+    config.resolve.alias
+      .set('@cmp-app', resolve('packages/web/cmp-app/src'))
+      .set('@home-app', resolve('packages/web/home-app/src'))
+      .set('@red-package', resolve('packages/web-app/packages/red-package/src'))
+      .set('@nio-index', resolve('packages/web-h5/packages/nio-index/src'))
+      .set('@pe-app', resolve('packages/web-h5/packages/pe-app/src'));
+    config.resolve.mainFields
+      .add('typescriptSource')
+      .add('browser')
+      .add('module')
+      .add('main');
+    config.module
+      .rule('html')
+      .test(/\.html$/)
+      .exclude.add(/index\.html/).end()
+      .set('loader', 'vue-template-loader')
+      .end();
+    config.module
+      .rule('jsx')
+      .test(/\.jsx$/)
+      .include.add(resolve('/node_modules/loca-ui')).end()
+      .set('loader', 'babel-loader')
+      .end();
+    config.plugin('define').tap(args => {
+      args[0]['process.env'].RELEASE_VERSION = JSON.stringify('V_201126');
+      args[0]['process.env'].RUNTIME_ENV = JSON.stringify(envCode);
+      return args
+    })
+  },
+*/
