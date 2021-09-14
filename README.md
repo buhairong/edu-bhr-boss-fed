@@ -54,3 +54,6 @@ https://cli.vuejs.org/zh/config/#devserver-proxy
 
 elementui 表单校验
 https://github.com/yiminghe/async-validator
+
+https://github.com/axios/axios
+https://github.com/axios/axios#interceptors

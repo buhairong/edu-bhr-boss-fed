@@ -57,6 +57,11 @@ const routes: Array<RouteConfig> = [
         path: '/advert-space',
         name: 'advert-space',
         component: () => import(/* webpackChunkName: 'advert-space' */ '@/views/advert-space/index.vue')
+      },
+      {
+        path: '/menu/create',
+        name: 'menu-create',
+        component: () => import(/* webpackChunkName: 'menu-create' */ '@/views/menu/create.vue')
       }
     ]
   },
@@ -79,7 +84,10 @@ router.beforeEach((to, from, next) => {
     console.log('store.state', store.state)
     if (!(store.state as any).user.user) {
       next({
-        name: 'login'
+        name: 'login',
+        query: {
+          redirect: to.fullPath
+        }
       })
     } else {
       next()

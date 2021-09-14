@@ -31,7 +31,7 @@
 <script lang="ts">
 import Vue from 'vue'
 import { Form } from 'element-ui'
-import { login } from '../../services/user'
+import { login } from '@/services/user'
 
 export default Vue.extend({
   name: 'LoginIndex',
@@ -65,13 +65,12 @@ export default Vue.extend({
           this.$message.error(data.message)
         } else {
           this.$store.commit('user/setUser', data.content)
-          this.$router.push({
-            name: 'home'
-          })
+          this.$router.push(this.$route.query.redirect as string || '/')
 
           this.$message.success('登录成功')
         }
       } catch (error) {
+        console.log('error', error)
         this.$message.error('登录失败')
       }
 
