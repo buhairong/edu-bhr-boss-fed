@@ -1,5 +1,5 @@
 <template>
-  <create-or-update />
+  <create-or-update is-edit :id="id" />
 </template>
 
 <script lang="ts">
@@ -7,7 +7,14 @@ import Vue from 'vue'
 import CreateOrUpdate from './components/CreateOrUpdate.vue'
 
 export default Vue.extend({
-  name: 'CreateCourse',
+  name: 'EditCourse',
+
+  props: {
+    id: {
+      type: [String, Number],
+      required: true
+    }
+  },
 
   components: {
     CreateOrUpdate

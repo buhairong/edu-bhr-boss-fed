@@ -5,11 +5,12 @@
       type="circle"
       :percentage="percentage"
       :width="178"
+      :status="percentage === 100 ? 'success' : undefined"
     />
     <el-upload
       v-else
       class="avatar-uploader"
-      action="https://jsonplaceholder.typicode.com/posts/"
+      action=""
       :show-file-list="false"
       :before-upload="beforeAvatarUpload"
       :http-request="handleUpload"
@@ -58,11 +59,12 @@ export default Vue.extend({
       this.isUploading = true
       const fd = new FormData()
       fd.append('file', options.file)
-      const { data } = await uploadCourseImage(fd, () => {
-        //
+      const { data } = await uploadCourseImage(fd, e => {
+        this.percentage = Math.floor(e.loaded / e.total * 100)
       })
       this.$emit('input', data.data.name)
       this.isUploading = false
+      this.percentage = 0
     }
   }
 })
