@@ -4,6 +4,12 @@
 http://eduboss.lagou.com 
 http://edufront.lagou.com
 
+打包
+https://cli.vuejs.org/zh/guide/cli-service.html#vue-cli-service-build
+
+使用history模式后端配置
+https://router.vuejs.org/zh/guide/essentials/history-mode.html#%E5%90%8E%E7%AB%AF%E9%85%8D%E7%BD%AE%E4%BE%8B%E5%AD%90
+
 ## Project setup
 ```
 npm install
@@ -80,3 +86,4 @@ https://help.aliyun.com/document_detail/51236.html
 https://help.aliyun.com/document_detail/52204.html
 
 https://help.aliyun.com/document_detail/51992.htm?spm=a2c4g.11186623.0.0.54fc4a92S0F0zI#topic-1959787-table-sg9-e93-qrt
+
