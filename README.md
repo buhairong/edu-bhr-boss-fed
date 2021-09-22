@@ -72,3 +72,11 @@ https://github.com/fex-team/ueditor
 https://github.com/wangeditor-team/wangEditor
 
 https://www.wangeditor.com/doc/
+
+
+阿里云视频点播
+https://help.aliyun.com/document_detail/51236.html
+
+https://help.aliyun.com/document_detail/52204.html
+
+https://help.aliyun.com/document_detail/51992.htm?spm=a2c4g.11186623.0.0.54fc4a92S0F0zI#topic-1959787-table-sg9-e93-qrt

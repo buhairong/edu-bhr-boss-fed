@@ -67,6 +67,12 @@
             })">编辑</el-button>
           <el-button
             size="mini"
+            @click="$router.push({
+              name: 'course-section',
+              params: {
+                id: scope.row.id
+              }
+            })"
           >内容管理</el-button>
           </template>
         </el-table-column>

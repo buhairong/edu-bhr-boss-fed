@@ -27,6 +27,7 @@ export default Vue.extend({
       editor.config.onchange = (value: string) => {
         this.$emit('input', value)
       }
+      editor.config.uploadImgServer = '/upload-img'
       editor.create()
       editor.txt.html(this.value)
 
